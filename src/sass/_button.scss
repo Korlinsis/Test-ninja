@@ -16,8 +16,10 @@
     letter-spacing: var(--big-button__letter-spacing);
   
     transition: background-color var(--animation-time) var(--animation-function);
+}
   
-    &:focus,
-    &:hover {
+    :focus,
+    :hover {
       background-color: #188ce8;
     }
+  
